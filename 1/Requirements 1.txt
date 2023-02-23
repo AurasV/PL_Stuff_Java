@@ -1,0 +1,44 @@
+Activity
+1) Write a program that computes and displays on the screen the number of seconds in a year. (Lab1Ex1.java)
+2) Write a program that computes and displays on the screen the square and the cube of an integer number. (Lab1Ex2.java)
+3) Write a program that computes and displays on the screen your age in days. (Lab1Ex3.java)
+
+Homework
+1) Write in the Notepad (or better Notepad++) window the program (Lab1HwEx1FirstHW.java):
+public class Lab1HwEx1FirstHW {
+public static void main(string[] args){
+System.out.printline(“Hello everybody!”)
+}
+}
+Save the file as Lab1HwEx1FirstHW.java
+Compile it with:
+javac Lab1HwEx1FirstHW.java
+Read the error messages, debug and recompile the program until the compilation is successful.
+Run dir in your folder to see your new file
+Run the program with
+java Lab1HwEx1FirstHW
+2) Write with Notepad++ the following program, save and execute it: (Lab1HwEx2Error.java)
+public class Lab1HwEx2Error {
+public static void main (String[] args){
+int a;
+a=5;
+int b;
+int c;
+c=a/b;
+System.out.println(c);
+}
+}
+If there are compilation errors correct them.
+3) Complete the following program for computing and displaying the average of three real numbers, calculate their average. Use the double type. Compile and execute it. (Lab1HwEx3Media.java)
+public class Lab1HwEx3Media {
+public static void main(String[] args) {
+double a, b, c;
+a=2.2;
+b=3.3;
+c=10;
+...
+}}
+4) Declare a new variable d in the previous program and initialize it with the computed average. Then visualize it with System.out.println(). (Lab1HwEx4Average.java)
+5) Declare a variable name and initialize with your name and a variable birthday and initialize it with your date of birth in “dd/mm/yyyy” format. Print on the screen :
+Hello <your name>! You were born in <year of birth>. (Lab1HwEx5MyBirthDay.java)
+
