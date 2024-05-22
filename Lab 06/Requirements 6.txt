@@ -1,0 +1,97 @@
+Activity
+1) Upload 3 class files: Car.java, Fleet.java and Lab6Ex1.java (include main method):
+
+1.1) Define a class (Car.java) that calculates the fuel consumption of a car, in liters per kilometers.
+
+Variables:
+
+- double startKm;  // Starting odometer reading
+
+- double   endKm;    // Ending odometer reading
+
+- double    liters;    // Liters   of   gas  used  between   the    readings
+
+Constructors:
+
+- Car (double startOdo, double endingOdo, double liters)
+
+Creates a new instance of a Car object with the starting  and ending odometer  readings  and the number of liters of fuel consumed.
+
+Methods:
+
+- double   calculateLKM() whitch calculates  and returns the distance  travelled, divided by the number of liters of fuel consumed  by the car.
+
+1.2) Define a class (Fleet.java) that holds two Car objects for a fleet consisting of two cars:  a town car and a sports  utility vehicle. The state of a Fleet object is held in its two instance variables. These variables refer to Car objects.
+
+Variables:
+
+- Car car1; // town car
+
+- Car car2; // sports  utility 
+
+Constructors:
+
+- Fleet (int car1StartOdo, int car1EndingOdo, double car1Liters, int car2StartOdo, int car2EndingOdo, double car2Liters)
+
+Creates a new instance of a Fleet object with the starting and ending odometer readings  and the number of liters of fuel consumed  for each car. 
+
+The constructor  for  Fleet  is given (in its parameters) all the information it needs to build two cars.  It uses the Car constructor for this (twice).
+
+Methods
+
+- double   averageLKM()
+
+Calculates and returns the distance travelled, divided  by the number of liters of fuel consumed by the fleet.
+
+There are two cars in the fleet, so the average LKM of the fleet will be the sum of the LKMs for each car, that sum divided by two.
+
+1.3) Define a class (Lab6Ex1.java) that will contain the main method and:
+
+- create 2 instances  for Car objects, compute  and display for each car the fuel consumption.
+
+- create an instance for a Fleet object, compute  and display the average fuel consumption for the fleet.
+
+
+2) Upload 2 class files: CheckingAccount.java and Lab6Ex2.java (include main method):
+
+2.1) Define a class (CheckingAccount.java) for managing accounts in a bank. The constructor creates a new checking account and initializes it with its account number, the account holder's name, and the starting balance.
+
+Variables:
+
+- Account number
+
+- Name of account holder
+
+- Current  balance
+
+Constructor:
+
+- Create the object; initialize the three data items. 
+
+The constructor is used with the new operator to create a new checking account object. It then initializes the account number, the account holder's name, and starting balance.
+
+Methods:
+
+- Accept  a deposit.
+
+- Process a check.
+
+- Get the current  balance.
+
+The method to accept a deposit adds an amount to the current balance.  The current balance can be negative or positive. The method to process  a check subtracts the amount of the check from the current balance. Overdrafts are allowed, so the balance can become negative. However,  if the balance is less than 100000 before the check is processed,  15  is charged for each check.
+
+2.2) Define a class (Lab6Ex2.java) that will contain the main method and creating  two objects in the main  method,  account1  and account2  of type CheckingAccount.  Display the balance of each account.  Deposit 1000 in account1 and process a check of 1500 for the account2.  Display the new balance of each account.
+
+Homework
+1) Upload 2 class files: Student.java and Lab6HwEx1.java (include main method):
+
+1.1) Define a class called Student (Student.java) . Each student has a name and a total number of points obtained at the exams. Define an appropriate constructor and four methods: getName() which returns the name of a student; addExam(int mark) which adds the mark for each exam; getTotal() which obtains the total number of points; getMeanMark(), which returns the mean of all marks.
+
+1.2) Define a class (Lab6HwEx1.java) that will contain the main method and create 1 instance  for Student objects, compute  and display for this object the name of student, total number of points and mean of all marks.
+
+
+2) Upload 2 class files: Product.java and Lab6HwEx2.java (include main method):
+
+2.1) Define a class called Product (Product.java) . Each product has a name and a price (in ROL). Write the constructor and the following methods: displayProduct(), getPrice() and setPrice(). Add two other methods: getPriceInRON() and setPriceInRON() which handles RONs.
+
+2.2) Define a class (Lab6HwEx2.java) that will contain the main method and creates two products and displays them (in ROLs), then raises their prices with 10.25 RON, displays them again (in RONs) and finally only their prices in RONs.

@@ -1,7 +1,0 @@
-Activity
-1) Define a class called Rational (Rational.java), which represents rational numbers with their arithmetic operations.  Define another class, called TestRational (TestRational.java), which will include main method, for testing the four operations defined in the Rational class. For details please read Lab7.pdf.
-
-2) Define a class called Complex (Complex.java), which represents complex numbers with their arithmetic operations.  Define another class, called TestComplex (TestComplex.java), which will include main method, for testing the four operations defined in the Complex class. For details please read Lab7.pdf.
-
-Homework
-1) Define a three classes called: 1) Company (Company.java), which sels a number of shares to share holder, 2) Share (Share.java) and 3) Portfolio (Portfolio.java) Define another class, called TestCompany (TestCompany.java), which will include main method, for testing share operations. For details please read HW7.pdf.

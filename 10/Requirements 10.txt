@@ -1,5 +1,0 @@
-Activity
-Create an abstract class, called Card (Card.java), a class, called Holiday (Holiday.java)  and a class called Birthday (Birthday.java), which are a non-abstract childrens of an abstract parent class. Create a class called CardTest (CardTest.java), which contains the main method to test greeting method from Holiday and Birthday class. For details please read Lab9-10.pdf.
-
-Homework
-1) Define a five classes called: 1) University (University.java), 2) Author (Author.java), 3) Publication (Publication.java),  4) Journal (Journal.java) and 5) ConferenceProceeding (ConferenceProceeding.java). Define another class, called UniversityTest (UniversityTest.java), which will include main method, for compute the score. For details please read HW10.pdf.

@@ -1,0 +1,79 @@
+Activity
+Static Methods
+
+Test each method as soon as you write it, with at least two different inputs.
+
+Untested methods will not be graded.
+
+
+1) Write a program (Lab5Ex1.java) that, for a given natural number n:
+
+a) Determines if n is prime or not.
+
+public static boolean isPrime(int n)
+
+b) Generates and displays all prime numbers less than n.
+
+public static void genPrimes(int n)
+
+c) Determines if all the divisors of n are prime or not.
+
+public static boolean allPrimeDivisors(int n)
+
+
+2) Write a program (Lab5Ex2.java) that displays all perfect numbers between 1 and a natural number n. A perfect number is equal with the sum of its divisors, including 1.
+
+public static boolean isPerfect(int x)
+
+
+3) Write a program (Lab5Ex3.java) that searches all the occurrences of a given string (a constant string) as a substring of another string. Display the number of occurrences.
+
+public static int match(String s1, String s2)
+
+Example: String s1 = “str”;
+
+String s2 = “string1 and string2 gives string3”;
+
+The result will be 3.
+
+
+4) Write a program (Lab5Ex4.java) that, given a string of characters and a character, will compute the number of occurrences of the character in the string of characters.
+
+public static int countChars(String s, char c)
+
+Write:
+
+a) An iterative version of the method.
+
+b) A recursive version of the method.
+
+
+5) Write a program (Lab5Ex5.java) that, for a given string of characters, will change the string, by alternating the characters taken from the left part with the characters taken from the right part, starting from the left part. The program ends when the middle of the string is reached. The changed string will be displayed inside the method, character by character.
+
+public static void modify(String s)
+
+Example: The string “Hi there” becomes “Heir eth”.
+
+
+6) Write a program (Lab5Ex6.java) that tests if a given string is a palindrome.
+
+public static boolean palindrome(String s)
+
+Write:
+
+a) An iterative version of the method.
+
+b) A recursive version of the method.
+
+Homework
+1) Write a program (Lab5HwEx1Circle.java) that define a class, called Lab5HwEx1Circle, having the methods getArea(), which returns the area of a circle and getCircumference(), which returns the circumference of a circle. The constructor has as arguments the coordinates of the center (two integers) and the radius of the circle (a double).
+
+2) Create an account on https://www.codingame.com/start
+
+Solve the first two exercises. Copy the solution, for each exercise, in a java file. 
+
+Insert the name of the game, as a comment, in each java exercise file.
+
+- Lab5HwEx2-1.java
+
+- Lab5HwEx2-2.java

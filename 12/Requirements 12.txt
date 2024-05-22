@@ -1,9 +1,0 @@
-Activity
-1)    Write a program (Lab12Ex1.java), which include main method, that reads a text file “Lab12_numbers.txt” containing integer numbers and displays on the screen the largest and the smallest number, and the average of all the numbers in the file.
-
-2)    Consider a text file “Lab12_numbers.txt” containing integer numbers separated by spaces. Write a program (Lab12Ex2.java), which include main method, that reads all the numbers from the file and writes them in ascending order in another text file “Lab12_numbers_new.txt”.
-
-3)    Write a program (Lab12Ex3.java), which include main method, that reads the given text file “Lab12_test.txt”, containing strings of characters. Write a program that reads the strings of characters from the file and writes them in another text file “Lab12_test_new.txt”, by inverting the order of the lines in the output file. The first line becomes the last, the second becomes the last but one, and so on.
-
-Homework
-No Homework

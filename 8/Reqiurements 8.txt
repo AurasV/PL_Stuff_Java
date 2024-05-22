@@ -1,7 +1,0 @@
-Activity
-1) Write the Author class (Author.java) and  a test program called TestAuthor (TestAuthor.java), which includes the main method, to test the constructor and public methods. Write the Book class (Book.java) and  a test program called TestBook (TestBook.java), which includes the main method, to test the constructor and public methods. For details please read Lab8.pdf.
-
-2) Create a class, called Person (Person.java), the second class, called PersonArray  (PersonArray.java) and third class, called PersonMain (PersonMain.java), which includes the main method, five elements are inserted in the array of persons. For details please read Lab8.pdf.
-
-Homework
-1) Define a four classes called: 1) Form (Form.java), 2) Point (Point.java), 3) Circle (Circle.java) and 4) Cylinder (Cylinder.java). Define another class, called FormTest (FormTest.java), which will include main method, for testing form operations. For details please read HW8.pdf.

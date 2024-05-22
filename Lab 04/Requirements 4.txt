@@ -1,0 +1,141 @@
+Activity
+1) Create an array of 10 integer numbers. Fill it with random integer numbers between 0 and 100. Display it. Compute the sum of elements in the array which are divisible with 3. (Lab4Ex1.java)
+
+2) Create an array of 10 integer numbers. Fill it with random integer numbers between 0 and 100. Display it. Sort it. Display it again. (Lab4Ex2.java)
+
+3) Create a bidimensional array with dimensions 5 and 6 (5 X 6). Fill it with random integer numbers between 0 and 100. Display it. (Lab4Ex3.java)
+
+4) Create a bidimensional array with dimensions 5 and 6 (5 X 6). Fill it with random integer numbers between 0 and 100. Display it. Compute and display the sum of elements on each row and column. (Lab4Ex4.java)
+
+5) Create an array of 10 integer numbers. Fill it with random integer numbers between 0 and 100. Display maximum and minimum. (Lab4Ex5.java)
+
+6) Create an array of 10 integer numbers. Fill it with random integer numbers between 0 and 100. Display how many odd numbers there are in the array. (Lab4Ex6.java)
+
+7) Create an array of 10 integer numbers. Fill it with random integer numbers between 0 and 100. Display the  length of longest succession of even numbers. (Lab4Ex7.java)
+
+Optional:
+
+8) Create an array of 10 integer numbers. Fill it with random integer numbers between 0 and 100. Display the greatest difference between two successive numbers. (Lab4Ex8.java)
+
+9) Fill a 5 *5 bidimensional array with a spiral starting from 1. (Lab4Ex9.java) The output should look like:
+
+1   2   3    4  5
+
+16 17 18 19  6
+
+15 24 25 20  7
+
+14 23 22 21  8
+
+13 12 11 10  9
+
+Homework
+1) Write a method public static boolean isPrime(int nr) (Lab4HwEx1Prime.java) which returns true if nr is prime and false otherwise. Test it. 
+
+2) Write a class Lab4HwEx2MatrixGenerators (Lab4HwEx2MatrixGenerators.java) in which you implement the methods:
+
+Method 2.1
+
+public static int[][] matrix1(int size) {…}
+
+that returns a square matrix with the size equal to size and in which the elements increase on the columns.
+
+Eg for size = 4 the result is
+
+1 5 9 13
+
+2 6 10 14
+
+3 7 11 15
+
+4 8 12 16
+
+Method 2.2
+
+public static int[][] matrix2(int size) {…}
+
+that returns a square matrix with the size equal to size and in which the elements increase on the lines.
+
+1 2 3 4
+
+5 6 7 8
+
+9 10 11 12
+
+13 14 15 16
+
+Method 2.3
+
+public static int[][] matrix3(int size) {…}
+
+that returns a square matrix with the size equal to size and in which the elements increase on the even columns from left to right and on odd columns from right to left.
+
+Eg for size = 4 the result is
+
+1 2 3 4
+
+8 7 6 5
+
+9 10 11 12
+
+16 15 14 13
+
+Method 2.4
+
+public static int[][] matrix4(int size) {…}
+
+that returns a square matrix with the size equal to size and in which the elements increase following a decreasing spiral.
+
+Eg for size = 4 the result is
+
+1 2 3 4
+
+12 13 14 5
+
+11 16 15 6
+
+10 9 8 7
+
+3) Write a class Lab4HwEx3MatrixCalculations (Lab4HwEx3MatrixCalculations.java) in which you implement the methods:
+
+Method 3.1
+
+public static int sumMainDiagonal(int m[][]) 
+
+that returns the sum of the elements on the main diagonal of a square matrix:
+
+Eg for the matrix 
+
+1   2    3   4
+
+12 13 14  5
+
+11 16 15 6 
+
+10  9  8   7
+
+the result is 1+13+15+7
+
+Method 3.2
+
+public static int sumUnderMainDiagonal(int m[][])
+
+that returns the sum of elements under (and including) main diagonal of a square matrix:
+
+Eg for the matrix 
+
+ 1    2   3  4
+
+12 13 14 5
+
+11 16 15 6 
+
+10   9   8 7
+
+the result is 1+12+13+11+16+15+10+9+8+7
+
+Method 3.3
+
+public static int[][] matrixMultiplication(int a[][], int b[][])
+
+that returns the result of multiplying matrix a and b. The method should print an error message if the multiplication cannot be done (what is the test?) and return null.
